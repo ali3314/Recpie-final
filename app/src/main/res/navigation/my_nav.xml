@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/cake">
+
+    <fragment
+        android:id="@+id/cake"
+        android:name="com.example.recpie.Cake"
+        android:label="fragment_cake"
+        tools:layout="@layout/fragment_cake" >
+        <action
+            android:id="@+id/action_cake_to_calltoorder"
+            app:destination="@id/calltoorder" />
+        <action
+            android:id="@+id/action_cake_to_orderc"
+            app:destination="@id/orderc" />
+    </fragment>
+    <fragment
+        android:id="@+id/calltoorder"
+        android:name="com.example.recpie.Calltoorder"
+        android:label="fragment_calltoorder"
+        tools:layout="@layout/fragment_calltoorder" >
+        <action
+            android:id="@+id/action_calltoorder_to_cake"
+            app:destination="@id/cake"/>
+    </fragment>
+    <fragment
+        android:id="@+id/orderc"
+        android:name="com.example.recpie.Orderc"
+        android:label="fragment_orderc"
+        tools:layout="@layout/fragment_orderc" >
+        <action
+            android:id="@+id/action_orderc_to_cake"
+            app:destination="@id/cake" />
+    </fragment>
+</navigation>

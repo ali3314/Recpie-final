@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Recpie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="red_velvet">Red velvet</string>
+    <string name="_20">20$</string>
+    <string name="order">Order</string>
+    <string name="add">+</string>
+    <string name="popular_in_the_southern_u_s_red_velvet_cake_is_a_vanilla_cake_with_a_few_tablespoons_of_cocoa_powder_and_red_food_coloring_mixed_in_vinegar_and_buttermilk_bring_some_acid_to_the_batter_adding_a_bit_of_tanginess_that_balances_out_the_sweet_cream_cheese_butter_frosting_that_is_standard">Popular in the southern U.S., red velvet cake is a vanilla cake with a few tablespoons of cocoa powder and red food coloring mixed in. Vinegar and buttermilk bring some acid to the batter, adding a bit of tanginess that balances out the sweet cream cheese-butter frosting that is standard</string>
+    <string name="chocolate">Chocolate</string>
+
+    <string name="_15_58">15.58$</string>
+    <string name="order1">+</string>
+    <string name="the_main_ingredient_of_the_chocolate_in_this_cake_is_cocoa_which_helps_our_brain_release_endorphins_or_the_feel_good_chemical_this_is_why_whenever_we_eat_this_cake_our_moods_lighten_and_we_feel_a_lot_better">The main ingredient of the chocolate in this cake is cocoa, which helps our brain release endorphins or the “feel good” chemical. This is why whenever we eat this cake, our moods lighten and we feel a lot better</string>
+</resources>

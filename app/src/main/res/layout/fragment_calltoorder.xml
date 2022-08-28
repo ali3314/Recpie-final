@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:layout_height="match_parent"
+    tools:context=".Calltoorder">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="91dp"
+        android:src="@drawable/strawberry_red_velvet_cake_1"
+        />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popular_in_the_southern_u_s_red_velvet_cake_is_a_vanilla_cake_with_a_few_tablespoons_of_cocoa_powder_and_red_food_coloring_mixed_in_vinegar_and_buttermilk_bring_some_acid_to_the_batter_adding_a_bit_of_tanginess_that_balances_out_the_sweet_cream_cheese_butter_frosting_that_is_standard"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="360dp"
+        android:padding="15dp"
+        />
+    <TextView
+        android:id="@+id/Price1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_20"
+        android:textSize="28sp"
+        android:textStyle="normal"
+        android:textColor="#5F939A"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="570dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/order"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="610dp"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sharing Recpie"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="610dp"
+        />
+</FrameLayout>
